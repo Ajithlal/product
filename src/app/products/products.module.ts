@@ -3,7 +3,6 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { ProductListComponent } from './product-list/product-list.component';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
-import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ProductGuardService } from './product-guard.service';
 import { Product } from './product.service';
@@ -11,7 +10,6 @@ import { Product } from './product.service';
 @NgModule({
   imports: [
     SharedModule,
-    CommonModule,
     FormsModule,
     RouterModule.forChild([
       {path: 'products/:id', component: ProductDetailsComponent },

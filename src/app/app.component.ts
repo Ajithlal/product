@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ProductGuardService } from './product-guard.service';
 
 @Component({
   selector: 'app-root',
